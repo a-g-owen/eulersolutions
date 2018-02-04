@@ -6,7 +6,7 @@ public class p2
     {
         int[] f = {0, 1};
         int total = 0;
-        while (f[f.length -1] < 4000000)
+        while (f[1] < 4000000)
         {
             int f2 = f[0] + f[1];
             f[0] = f[1];
